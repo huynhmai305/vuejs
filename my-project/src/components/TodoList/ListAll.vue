@@ -1,7 +1,7 @@
 <template>
   <section>
     <header>
-      <h1>TO DO LIST</h1>
+      <h1>TO DO LISTS</h1>
       <input v-model="newTodo" @keyup.enter="addTodo" />
     </header>
     <section v-show="todoList.length" v-cloak class="main">
